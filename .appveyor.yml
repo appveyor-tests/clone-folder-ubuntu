@@ -1,0 +1,6 @@
+clone_folder: ~/test
+
+test_script:
+- ls -al
+
+build: off
