@@ -1,6 +1,7 @@
 image: ubuntu
 
-clone_folder: ~/test
+#clone_folder: ~/test
+clone_folder: $HOME/test
 
 test_script:
 - ls -al
