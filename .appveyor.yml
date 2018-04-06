@@ -1,3 +1,5 @@
+image: ubuntu
+
 clone_folder: ~/test
 
 test_script:
