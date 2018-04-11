@@ -8,6 +8,6 @@ test_script:
 - appveyor PushArtifact README.md
 
 artifacts:
-- test.txt
+- path: test.txt
 
 build: off
