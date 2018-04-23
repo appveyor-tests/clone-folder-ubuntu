@@ -5,7 +5,7 @@ clone_folder: $HOME/test
 #clone_folder: /test
 
 stack:
-- ruby 2.3
+- ruby ruby-2.3.4
 
 test_script:
 - ruby --version
