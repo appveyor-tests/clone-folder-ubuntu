@@ -4,6 +4,9 @@ image: ubuntu
 clone_folder: $HOME/test
 #clone_folder: /test
 
+stack:
+- ruby 2
+
 test_script:
 - ls -al
 - appveyor PushArtifact README.md
