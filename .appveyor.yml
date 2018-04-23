@@ -4,11 +4,17 @@ image: ubuntu
 clone_folder: $HOME/test
 #clone_folder: /test
 
+init:
+- export PATH=/usr/lib/jvm/java-9-openjdk-amd64/bin:$PATH
+- export JAVA_HOME_7_X64=/usr/lib/jvm/java-7-openjdk-amd64
+
 stack:
 - ruby ruby-2.3.4
+- jdk 7
 
 test_script:
 - ruby --version
+- echo $PATH | tr ':' '\n'
 - ls -al
 - appveyor PushArtifact README.md
 
