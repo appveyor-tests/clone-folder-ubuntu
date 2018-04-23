@@ -9,8 +9,7 @@ init:
 - export JAVA_HOME_7_X64=/usr/lib/jvm/java-7-openjdk-amd64
 
 stack:
-- ruby ruby-2.3.4
-- jdk 7
+- ruby ruby-2.3.4, jdk 7
 
 test_script:
 - ruby --version
